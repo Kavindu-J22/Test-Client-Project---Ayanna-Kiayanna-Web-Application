@@ -10,6 +10,7 @@ header{
 }
 header .logo{
     flex: 1;
+    font-size:small;
 }
 header a{
     text-transform: capitalize;
