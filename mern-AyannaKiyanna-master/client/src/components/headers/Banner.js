@@ -3,6 +3,7 @@ import {GlobalState} from '../../GlobalState'
 import Close from './icon/close.svg'
 import {Link} from 'react-router-dom'
 import axios from 'axios'
+import './header.css'
 
 
 
@@ -19,12 +20,14 @@ function Banner() {
         
         window.location.href = "/";
     }
-
+    
     const adminRouter = () =>{
         return(
             <>
-                <li><Link to="/create_product">Create Product</Link></li>
-                <li><Link to="/category">Categories</Link></li>
+                <li><Link to="/create_product">Create Item</Link></li>
+                <li><Link to="/category">Create Categories</Link></li>
+                <li><Link to="/">Update Services</Link></li>
+                <li><Link to="/">Update Notifications</Link></li>
             </>
         )
     }
@@ -32,8 +35,8 @@ function Banner() {
     const loggedRouter = () =>{
         return(
             <>
-                <li><Link to="/history">History</Link></li>
-                <li><Link to="/" onClick={logoutUser}>Logout</Link></li>
+                <li><Link to="/history">Lets Work'</Link></li>
+                <li><Link to="/">Notifications</Link></li>
             </>
         )
     }
@@ -48,12 +51,18 @@ function Banner() {
            
 
             <ul style={styleMenu}>
-                <li><Link to="/">{isAdmin ? 'Edit Home' : 'Home'}</Link></li>
+                
+                <li><Link to="/">{isAdmin ? 'Update For Students' : 'For Students'}</Link></li>
+                <li><Link to="/">{isAdmin ? 'Update For Teachers' : 'For Teachers'}</Link></li>
+                <li><Link to="/">{isAdmin ? 'Update Others' : 'Entertainments & Others'}</Link></li>
+                <li><Link to="/">{isAdmin ? 'Update About' : 'About us'}</Link></li>
+                <li><Link to="/">{isAdmin ? 'Update Contact' : 'Cuntact us'}</Link></li>
+                
 
                 {isAdmin && adminRouter()}
 
-                {
-                    isLogged ? loggedRouter() : <li><Link to="/login">Login ✥ Register</Link></li>
+                { isLogged ? loggedRouter() : <li><Link to="/login">Sign in ✥ Sign up</Link></li>
+                
                 }
 
                 <li onClick={() => setMenu(!menu)}>
@@ -64,6 +73,7 @@ function Banner() {
             
         </header>
     )
+   
 }
 
 export default Banner

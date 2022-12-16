@@ -6,12 +6,12 @@ header{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    border-bottom: 3px solid rgb(131, 179, 160);
-    background-color: rgb(216, 222, 205);
+    border-bottom: 3px solid rgb(3, 20, 13);
+    background-color: rgb(29, 33, 39);
     transition: background .6s; 
 }
 header:hover{
-    background: rgb(150, 190, 164);
+    background: #373132;
 }
 header .logo{
     flex: 1;
@@ -29,10 +29,10 @@ header #logo1{
    transition: transform .4s;
 }
 #logo1:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 header .logo h1{
-    color: rgb(48, 64, 80);
+    color: white;
     font-size: 45px;
     padding-top: 5px; 
     cursor: pointer; 
@@ -45,31 +45,35 @@ header .logo h2{
 }
 header a{
     text-transform: capitalize;
-    color: rgb(110, 56, 100);
+    color: rgba(237, 230, 241, 0.8);
 }
-header .logo h1 span{
+span{
     font-size:larger;
-    color: rgb(115, 23, 133);
+    color: #f9004d;
     font-weight: bold;
 }
 
 header ul li{
     display: inline-block;
-    padding: 0 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 25px;
     font-size: 16px;
     font-weight: bold;
+    transition: transform .4s;
 }
 header ul li:hover{
-    opacity: 0.5;
+    transform: scale(1.1);
 }
 .menu{
     display: none;
 }
-.cart-icon{
+.user-icon{
     position: relative;
     margin-right: 20px;
+    color: crimson;
 }
-.cart-icon span{
+.user-icon span{
     background: crimson;
     border-radius: 20px;
     color: white;
