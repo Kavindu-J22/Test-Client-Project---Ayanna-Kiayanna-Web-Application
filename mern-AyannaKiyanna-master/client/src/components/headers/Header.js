@@ -5,6 +5,7 @@ import Close from './icon/close.svg'
 import Cart from './icon/cart.svg'
 import {Link} from 'react-router-dom'
 import axios from 'axios'
+import Logo1 from './images/1aa.png'
 
 function Header() {
     const state = useContext(GlobalState)
@@ -47,17 +48,18 @@ function Header() {
     return (
         <header>
             <div className="menu" onClick={() => setMenu(!menu)}>
-                <img src={Menu} alt="" width="30" />
+                <img src={Menu} alt="AK Logo"/>
             </div>
 
             <div className="logo">
+                <img id="logo1" src={Logo1} alt="" width="30" />
+
+                <h1><span>අ</span>යන්න කියන්න . . .</h1><br></br>
+
+                <h2>
+                    <Link to="/">{isAdmin ? 'Admin' : '✥- Sinhala Education Institute & Education Centre -'}</Link>
+                </h2>
                 
-            </div>
-
-            <div className="logo">
-                <h1>
-                    <Link to="/">{isAdmin ? '"අ"යන්න කියන්න Admin' : '"අ"යන්න කියන්න'}</Link>
-                </h1>
             </div>
 
             <ul style={styleMenu}>
