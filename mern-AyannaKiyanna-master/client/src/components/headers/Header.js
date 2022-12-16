@@ -50,8 +50,8 @@ function Header() {
                 <img src={Menu} alt="" width="30" />
             </div>
 
-            <div className="logo1">
-                <img src=''
+            <div className="logo">
+                
             </div>
 
             <div className="logo">
