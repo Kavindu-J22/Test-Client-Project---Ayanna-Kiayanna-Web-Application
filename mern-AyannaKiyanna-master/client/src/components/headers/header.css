@@ -12,7 +12,7 @@ header .logo{
     flex: 1;
 }
 header a{
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: #555;
 }
 header ul li{
