@@ -75,8 +75,7 @@ function Header() {
             </ul>
 
             {
-                isAdmin ? '' 
-                :<div className="user-icon">
+                <div className="user-icon">
                     <Link to="/user">
                         <img src={user} alt="" width="30" />
                     </Link>

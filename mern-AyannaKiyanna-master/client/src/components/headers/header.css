@@ -29,7 +29,7 @@ header #logo1{
    transition: transform .4s;
 }
 #logo1:hover{
-    transform: scale(1.05);
+    transform: scale(1.08);
 }
 header .logo h1{
     color: white;
@@ -37,11 +37,11 @@ header .logo h1{
     padding-top: 5px; 
     cursor: pointer; 
 }
-
 header .logo h2{
     font-size: 23px;
     position: absolute;
     margin: 70px 0px 0px 230px;
+    
 }
 header a{
     text-transform: capitalize;

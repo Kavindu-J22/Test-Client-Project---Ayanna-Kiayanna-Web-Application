@@ -26,8 +26,8 @@ function Banner() {
             <>
                 <li><Link to="/create_product">Create Item</Link></li>
                 <li><Link to="/category">Create Categories</Link></li>
-                <li><Link to="/">Update Services</Link></li>
-                <li><Link to="/">Update Notifications</Link></li>
+                <li><Link to="/">Update-Services</Link></li>
+                <li><Link to="/">Update-Notifications</Link></li>
             </>
         )
     }
@@ -52,11 +52,11 @@ function Banner() {
 
             <ul style={styleMenu}>
                 
-                <li><Link to="/">{isAdmin ? 'Update For Students' : 'For Students'}</Link></li>
-                <li><Link to="/">{isAdmin ? 'Update For Teachers' : 'For Teachers'}</Link></li>
-                <li><Link to="/">{isAdmin ? 'Update Others' : 'Entertainments & Others'}</Link></li>
-                <li><Link to="/">{isAdmin ? 'Update About' : 'About us'}</Link></li>
-                <li><Link to="/">{isAdmin ? 'Update Contact' : 'Cuntact us'}</Link></li>
+                <li><Link to="/">{isAdmin ? 'Update-For Students' : 'For Students'}</Link></li>
+                <li><Link to="/">{isAdmin ? 'Update-For Teachers' : 'For Teachers'}</Link></li>
+                <li><Link to="/">{isAdmin ? 'Update-Others' : 'Entertainments & Others'}</Link></li>
+                <li><Link to="/">{isAdmin ? 'Update-About' : 'About us'}</Link></li>
+                <li><Link to="/">{isAdmin ? 'Update-Contact' : 'Cuntact us'}</Link></li>
                 
 
                 {isAdmin && adminRouter()}
