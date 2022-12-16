@@ -59,15 +59,16 @@ function Products() {
     if(loading) return <div><Loading /></div>
     return (
         <>
-        <Filters />
-        
+            <Filters />
         {
             isAdmin && 
+            
             <div className="delete-all">
                 <span>Select all</span>
                 <input type="checkbox" checked={isCheck} onChange={checkAll} />
                 <button onClick={deleteAll}>Delete ALL</button>
             </div>
+            
         }
 
         <div className="products">
