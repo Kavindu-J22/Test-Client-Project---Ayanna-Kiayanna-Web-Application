@@ -7,6 +7,7 @@ import {Link} from 'react-router-dom'
 import axios from 'axios'
 import Logo1 from './images/1aa.png'
 
+
 function Header() {
     const state = useContext(GlobalState)
     const [isLogged] = state.userAPI.isLogged
@@ -25,8 +26,6 @@ function Header() {
     const adminRouter = () =>{
         return(
             <>
-                <li><Link to="/create_product">Create Product</Link></li>
-                <li><Link to="/category">Categories</Link></li>
             </>
         )
     }
@@ -34,7 +33,6 @@ function Header() {
     const loggedRouter = () =>{
         return(
             <>
-                <li><Link to="/history">History</Link></li>
                 <li><Link to="/" onClick={logoutUser}>Logout</Link></li>
             </>
         )

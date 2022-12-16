@@ -6,7 +6,7 @@ header{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 3px solid rgb(131, 179, 160);
     background-color: rgb(216, 222, 205);
     transition: background .6s; 
 }
