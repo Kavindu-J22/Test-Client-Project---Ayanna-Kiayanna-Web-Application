@@ -50,6 +50,10 @@ function Header() {
                 <img src={Menu} alt="" width="30" />
             </div>
 
+            <div className="logo1">
+                <img src=''
+            </div>
+
             <div className="logo">
                 <h1>
                     <Link to="/">{isAdmin ? '"අ"යන්න කියන්න Admin' : '"අ"යන්න කියන්න'}</Link>
