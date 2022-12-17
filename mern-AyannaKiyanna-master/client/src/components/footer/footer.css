@@ -1,18 +1,30 @@
-body {
-    margin: 0;
-    padding: 0;
+.footer {
+    position: relative;
+    margin: 0px;
+    background-color: #f5f5f5;
+    padding: 0px;
   }
   
-  .App {
-    font-family: sans-serif;
-    min-height: 100vh;
+  .footer-content {
     display: flex;
+    justify-content: space-around;
     flex-direction: column;
+    text-align: left;
+    margin: 10px;
   }
   
-  footer {
-    background-color: gray;
-    text-align: center;
-    margin-top: auto;
-    padding: 8px;
+  .sub {
+    display: flex;
+    justify-content: space-evenly;
   }
+  
+  .sub p {
+    margin: 5px;
+  }
+  
+  @media screen and (max-width: 720px) {
+    .sub {
+      flex-direction: column;
+    }
+  }
+  
