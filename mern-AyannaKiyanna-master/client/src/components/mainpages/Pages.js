@@ -10,6 +10,7 @@ import Cart from './cart/Cart'
 import NotFound from './utils/not_found/NotFound'
 import Categories from './categories/Categories'
 import CreateProduct from './createProduct/CreateProduct'
+import home from './home/Home'
 
 import {GlobalState} from '../../GlobalState'
 
@@ -22,6 +23,7 @@ function Pages() {
 
     return (
         <Switch>
+            <Route path="/home" exact component={home}/>
             <Route path="/" exact component={Products} />
             <Route path="/detail/:id" exact component={DetailProduct} />
 
