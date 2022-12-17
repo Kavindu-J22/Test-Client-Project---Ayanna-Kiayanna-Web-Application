@@ -26,7 +26,7 @@ app.use('/api', require('./routes/paymentRouter'))
 
 // Connect to mongodb
 const URI = process.env.MONGODB_URL
-mongoose.connect(URI, {
+mongoose.set(URI, {
     useCreateIndex: true,
     useFindAndModify: false,
     useNewUrlParser: true,
