@@ -13,7 +13,7 @@
     border: 2px solid #fff;
     border-top: 2px solid crimson;
     border-radius: 50%;
-    animation: rotate 10s linear infinite alternate-reverse;
+    animation: rotate 5s linear infinite alternate-reverse;
 }
 @keyframes rotate{
     50%{
