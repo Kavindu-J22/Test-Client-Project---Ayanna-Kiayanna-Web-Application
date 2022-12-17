@@ -28,6 +28,7 @@ function Banner() {
                 <li><Link to="/category">Create Categories</Link></li>
                 <li><Link to="/">Update-Services</Link></li>
                 <li><Link to="/">Update-Notifications</Link></li>
+                <li><Link to="/">User-Feedbaks</Link></li>
             </>
         )
     }
