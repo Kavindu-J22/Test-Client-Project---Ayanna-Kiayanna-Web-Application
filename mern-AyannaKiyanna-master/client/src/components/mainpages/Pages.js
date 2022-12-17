@@ -41,6 +41,7 @@ function Pages() {
 
 
             <Route path="*" exact component={NotFound} />
+            
         </Switch>
     )
 }

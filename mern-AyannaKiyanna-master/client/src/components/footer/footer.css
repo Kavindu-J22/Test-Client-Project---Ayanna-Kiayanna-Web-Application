@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .App {
+    font-family: sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  footer {
+    background-color: gray;
+    text-align: center;
+    margin-top: auto;
+    padding: 8px;
+  }
