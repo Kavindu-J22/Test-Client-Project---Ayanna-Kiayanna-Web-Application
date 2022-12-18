@@ -1,0 +1,29 @@
+.newstaff {
+    flex: 4 1;
+  }
+.textbox{
+  width: 400px;
+}
+.topic{
+  margin-left: 13px;
+  margin-bottom: 10px;
+  color: rgba(255, 0, 0, 0.692);
+}
+.textboxamount{
+  margin-top: 15px;
+  margin-left: 16px;
+}
+.amount{
+  width: 831px;
+}
+.add{
+  margin-left: 655px;
+  margin-top: 20px;
+}
+.back{
+  margin-left: 655px;
+  margin-top: 10px;
+}
+.datebox{
+  width: 830px;
+}

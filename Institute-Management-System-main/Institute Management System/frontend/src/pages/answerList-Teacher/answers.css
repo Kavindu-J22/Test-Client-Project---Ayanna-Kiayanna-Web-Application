@@ -1,0 +1,9 @@
+.search_btn {
+  background-color: #d4bd39;
+  border-radius: 5px;
+  border-style: none;
+  margin-left: 15px;
+  width: 100px;
+  height: 32px;
+  color: white;
+}

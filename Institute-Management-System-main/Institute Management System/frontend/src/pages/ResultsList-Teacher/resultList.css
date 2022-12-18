@@ -1,0 +1,33 @@
+.tHead{
+    background-color: #00BFFF;
+    color: white;
+}
+
+.inputArea{
+    width: 320px;
+    padding-top: 1%;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(160, 158, 158);
+    margin-top: 7px;
+}
+
+.add_btn{
+    background-color: #d4bd39;
+    border-radius: 5px;
+    border-style: none;
+    float: right;
+    margin-right: 15px;
+    width: 100px;
+    height: 32px;
+    color:white;
+}
+
+.next_btn{
+    float: right;
+    border-radius: 5px;
+    border-style: none;
+    height: 32px;
+    background-color: darkgray;
+    color: white;
+}

@@ -1,0 +1,25 @@
+.newstaff {
+    flex: 4 1;
+  }
+  .btestbox{
+    margin-left: 17px;
+  }
+  .btestboxw{
+    width: 825px;
+  }
+  .paydatebox{
+    width: 396px;
+  }
+  .total{
+    margin-left: 885px;
+    margin-top: -391px;
+  }
+  .totalvalue{
+    margin-left: 940px;
+    margin-top: 2px;
+  }
+  .checkbtn{
+    margin-top: 27px;
+    width: 70px;
+    height: 35px;
+  }

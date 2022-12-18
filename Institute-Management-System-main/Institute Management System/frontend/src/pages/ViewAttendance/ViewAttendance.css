@@ -1,0 +1,152 @@
+.DdownBtn {
+  background-color: #168eff;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  font-size: 19px;
+  border: 1px;
+  cursor: pointer;
+  padding: 6px 100px 10px 20px;
+}
+
+.Ddown {
+  position: relative;
+  float: left;
+  margin-left: 58px;
+  padding-bottom: 22px;
+  border-width: 0px;
+}
+
+.Ddown-content {
+  display: none;
+  position: absolute;
+  background-color: #daf6ff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  text-align: left;
+  width: 265px;
+}
+
+.Ddown-content a {
+  color: black;
+  padding: 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.card {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: #fff;
+}
+
+.card-6 {
+  background: transparent;
+}
+
+.card-6 .card-heading {
+  background: transparent;
+}
+
+.card-6 .card-body {
+  background: #fff;
+  position: relative;
+  border: 1px solid #e5e5e5;
+  border-bottom: none;
+  padding: 30px 0;
+  padding-bottom: 0;
+  -webkit-border-top-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-right-radius: 3px;
+}
+
+.card-6 .card-body:before {
+  bottom: 100%;
+  left: 75px;
+  border: solid transparent;
+  content: "";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(255, 255, 255, 0);
+  border-bottom-color: #fff;
+  border-width: 10px;
+}
+
+.card-6 .card-footer {
+  padding: 30px;
+  text-align: center;
+}
+
+.card-6 .card-heading {
+  background: transparent;
+  float: left;
+  margin-left: 70px;
+}
+
+.table-wrapper {
+  margin: 10px 70px 70px;
+  box-shadow: 0px 35px 50px rgba(0, 0, 0, 0.2);
+  margin-left: 55px;
+}
+
+.fl-table {
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: normal;
+  border: none;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 100%;
+  white-space: nowrap;
+  background-color: rgb(255, 255, 255);
+}
+
+.fl-table td,
+.fl-table th {
+  text-align: center;
+  padding: 5px;
+}
+
+.fl-table td {
+  border-right: 1px solid #f8f8f8;
+  font-size: 15px;
+}
+
+.fl-table thead th {
+  color: #000000;
+  background: #5eb9ee;
+}
+
+.fl-table thead th:nth-child(odd) {
+  color: #000000;
+  background: #5eb9ee;
+}
+
+.fl-table tr:nth-child(even) {
+  background: #d3d0d0;
+}
+
+.link {
+  width: 50px;
+}
+
+body {
+  overflow-x: hidden;
+}

@@ -1,0 +1,131 @@
+.flecContainer {
+    flex: 4;
+}
+
+.flecContainer1 {
+    flex: 4;
+    width: 300px;
+}
+
+.submitButton{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: #e5ff00;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    width: 15%;
+    margin-top: 30px;
+    
+}
+
+.updateButton{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: #e5ff00;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    width: 15%;
+    margin-top: 30px;
+}
+
+.cancelButton{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: #e5ff00;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    width: 15%;
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 20px;
+}
+
+.deleteButton{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: #ff0000;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    width: 15%;
+    margin-top: 30px;
+}
+
+.searchBar{
+    margin-top: 20px;
+    padding: 10px;
+    
+}
+
+.btnContainer{
+    display: flex;
+     margin-top: 20px;
+}
+
+.addBtn{
+    flex: 1; 
+}
+
+.addBtn-Btn{
+    cursor: pointer;
+}
+
+.userListDelete{
+      color: red;
+      cursor: pointer;
+  }
+
+.tHead{
+    background-color: #00BFFF;
+    color: white;
+}
+
+.tableStyle{
+ background-color: rgb(252, 252, 252);   
+ width: 80%;
+ margin-Top: 20px;
+justify-content: center;
+}
+
+.reportBtn{
+    margin-right: 20%;
+}
+
+.reportBtn-Btn{
+     cursor: pointer;
+}
+
+.tableRaw{
+    padding: 105px;
+    justify-content: center;
+}
+
+.mainTitle{
+    font-size: 22px;
+    font-weight: 900;
+    margin-top: 20px;
+}
+
+.subTitle1{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.subTitle2{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

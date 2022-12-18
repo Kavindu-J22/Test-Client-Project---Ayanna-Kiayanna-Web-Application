@@ -1,0 +1,86 @@
+.userList {
+    flex: 4;
+  }
+  .titleList{
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .userListUser {
+    display: flex;
+    align-items: center;
+  }
+  
+  .userListImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .userListEdit{
+      border: none;
+      border-radius: 10px;
+      padding: 5px 10px;
+      background-color: #3bb077;
+      color: white;
+      cursor: pointer;
+      margin-right: 20px;
+  }
+  
+  .userListDelete{
+      color: red;
+      cursor: pointer;
+  }
+  
+  .titleList{
+  color: red;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.table-wrapper {
+  margin: 10px 70px 70px;
+  box-shadow: 0px 35px 50px rgba(0, 0, 0, 0.2);
+}
+
+.fl-table {
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: normal;
+  border: none;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 100%;
+  white-space: nowrap;
+  background-color: rgb(255, 255, 255);
+}
+
+.fl-table td,
+.fl-table th {
+  text-align: center;
+  padding: 5px;
+  
+}
+
+.fl-table td {
+  border-right: 1px solid #f8f8f8;
+  font-size: 15px;
+
+}
+
+.fl-table thead th {
+  color: #000000;
+  background: #5eb9ee;
+}
+
+.fl-table thead th:nth-child(odd) {
+  color: #000000;
+  background: #5eb9ee;
+}
+
+
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////// */

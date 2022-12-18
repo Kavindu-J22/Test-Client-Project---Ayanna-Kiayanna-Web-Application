@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+.header-background{
+    background-color:#F2F3F4;
+    height: 128px;
+    border: 1px solid grey;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+
+.lname{
+    margin-left: 50px;
+    margin-top: 2px;
+    padding: 8px;
+    color: #FFAF0F;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 35px;
+}
+
+.logo-name{
+    margin-left: 40px;
+    padding-top: 28px;
+    max-width: 360px;
+    position: absolute;
+}
+
+.nav-bar{
+   float:right;
+    font-size: large;
+    margin-right: 10px;
+    list-style: none;
+    display: flex;
+    margin-top: 80px;
+}
+
+.nav-item{
+    padding-right: 20px;
+    text-decoration: none;
+    /* color: #000002; */
+    font-family: sans-serif,poppins;
+    height: 20px;
+    line-height: 43px;
+    margin: 3px;
+    padding: 12px 22px;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: gray;
+    
+}
+.nav-item:hover{
+    background-color:#00BFFF;
+  color: white;
+  box-shadow: 15px 20px 50px rgba(24, 139, 119, 0.2);
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.nav-item-active{
+    padding-right: 20px;
+    color:#00BFFF;
+    text-decoration: none;
+    font-family: sans-serif,roboto;
+}
+
+.userImg{
+    width:50px;
+    height:50px;
+    border-radius:80px;
+    margin-right:50px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.username-img{
+    float: right;
+   
+}
+
+.user-name{
+    float: left;
+    margin-right: 20px;
+    margin-top: 30px;
+    font-family: sans-serif,roboto;
+   
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+ 
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown-text{
+      text-decoration: none;
+      color: #4f5152;
+      font-size: 15px;
+      
+  }
+  .dropdown-text:hover{
+  color: #FFAF0F;
+  box-shadow: 15px 20px 50px rgba(24, 139, 119, 0.2);
+}

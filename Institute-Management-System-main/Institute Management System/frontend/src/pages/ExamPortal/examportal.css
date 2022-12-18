@@ -1,0 +1,32 @@
+.bg-img{
+    width: 598px;
+    height: 598px;
+    position: absolute;
+    opacity: 0.6;
+}
+.icon-set12{
+    max-width: 500px;
+    float: right;
+    margin-top: 200px;
+    margin-right: 330px;
+}
+
+.header12{
+    position:absolute;
+    margin-left:400px;
+    font-size:50px;
+    margin-top:50px;
+    font-family:Georgia, serif;
+}
+
+.textDev{
+    background-color:white;
+    position:absolute;
+    margin-left:100px;
+    opacity:0.9;
+    width:270px;
+    height: 220px;
+    margin-top:200px;
+    text-align:center;
+    float:left;
+}
