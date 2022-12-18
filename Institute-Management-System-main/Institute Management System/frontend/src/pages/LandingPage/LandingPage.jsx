@@ -1,6 +1,6 @@
 import React from "react";
 import "./LandingPage.css";
-import backgroundTheme from "../../assets/videos/video1.mp4";
+import backgroundTheme from "../../assets/videos/video2.mp4";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
 
