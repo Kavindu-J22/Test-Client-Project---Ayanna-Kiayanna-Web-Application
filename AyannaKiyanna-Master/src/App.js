@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import Navbar from "./components/navbar.component"
 import home from "./components/Home.component"
+import header from "./components/Header/Header"
 
 //employee
 import EditEmployee from "./components/Employee/edit-Employee.components";
@@ -66,7 +67,9 @@ function App() {
 
     return (<Router >
         <div className = "container" style={{backgroundImage: 'url("https://i.ytimg.com/vi/R9mXtzn8meE/maxresdefault.jpg")'}}>
-        <Navbar/>
+
+        <Route path = "/" exact component = { header }/>
+        <Navbar />
         <br/>
         <Route path = "/" exact component = { home }/>
         <Route path = "/Employee-List/" component = { EmployeeList }/> 
