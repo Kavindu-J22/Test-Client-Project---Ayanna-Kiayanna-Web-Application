@@ -14,6 +14,11 @@
     position: relative;
 }
 
+.header span{
+    color: #cb7f68;
+}
+
+
 .nav{
     display: flex;
     align-items: center;
@@ -57,8 +62,8 @@
 .signup{
     background: #ff3d00;
     color: #fff;
-    padding: 10px 30px;
-    border-radius: 3px;
+    
+    border-radius: 4px;
     cursor: pointer;
 }
 
@@ -118,4 +123,19 @@
     width: auto;
     height: auto;
     z-index: -100;
+}
+
+.signup{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.signup:hover{
+    transform: scale(1.2);
 }

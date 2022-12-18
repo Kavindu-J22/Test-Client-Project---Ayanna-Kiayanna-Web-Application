@@ -48,11 +48,16 @@ export default function Starting({ history }) {
           <li>
             <a href="#">Contact</a>
           </li>
-          <li className="signup">Log In</li>
+
+          <li>
+         <a href="/login" className="signup">Log In</a>
+         </li>
+          
+          
         </ul>
       </nav>
       <div className="content">
-        <h1>Welcome to Global Education</h1>
+        <h1>Welcome to <span>Ayanna Kiyanna..!</span></h1>
         <form>
           <Link to="/login">
             <button type="submit">Login Here</button>
