@@ -1,10 +1,11 @@
-require('dotenv').config()
-const express = require('express')
-const mongoose = require('mongoose')
-const cors = require('cors')
-const fileUpload = require('express-fileupload')
-const cookieParser = require('cookie-parser')
-const path = require('path')
+
+import {} from 'dotenv/config'
+import express  from 'express'
+import mongoose from 'mongoose'
+import cors from 'cors'
+import fileUpload from 'express-fileupload'
+import cookieParser from 'cookie-parser'
+import path from 'path'
 
 
 const app = express()
@@ -16,7 +17,7 @@ app.use(fileUpload({
 }))
 
 // Routes
-app.use('/user', require('./routes/userRouter'))
+app.use('/user',require('./routes/userRouter.js'))
 app.use('/api', require('./routes/categoryRouter'))
 app.use('/api', require('./routes/upload'))
 app.use('/api', require('./routes/productRouter'))

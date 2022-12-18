@@ -1,10 +1,12 @@
 {
   "name": "client-project---ayanna-kiayanna-web-application",
   "version": "1.0.0",
+  
   "description": "Client Project - Ayanna Kiayanna Web Application - This Web Application for Education Purpose - Client - Jagath Kumara Jayasinghe( Ayanna Kiyanna Organization Owner )",
   "main": "server.js",
   "scripts": {
     "dev": "nodemon server.js"
+    
   },
   "repository": {
     "type": "git",
