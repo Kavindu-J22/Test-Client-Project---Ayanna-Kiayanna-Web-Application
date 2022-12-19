@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Noto+Sans+Sinhala:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap");
 
 .mainback {
@@ -11,7 +12,7 @@
 .heading {
   font-size: 60px;
   /* font-family: "Ubuntu", sans-serif; */
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   padding: 5px 10px;
 }
 
