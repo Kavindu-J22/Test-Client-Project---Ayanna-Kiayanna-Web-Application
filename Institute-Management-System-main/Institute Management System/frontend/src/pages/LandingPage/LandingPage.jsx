@@ -44,7 +44,7 @@ export default function Starting({ history }) {
             <a href="#">About</a>
           </li>
           <li>
-            <a href="#">Team</a>
+            <a href="#">Services</a> 
           </li>
           <li>
             <a href="#">Contact</a>
@@ -57,14 +57,21 @@ export default function Starting({ history }) {
       </nav>
 
       <div className="content">
-        <img src= {AKlogo} className="logo1" alt="" />
+        <img className="logo1" src= {AKlogo}  alt="" />
+        
         <h1>Welcome to <span>Ayanna Kiyanna..!</span></h1>
+        <h2>Jagath Kumara Jayasinghe</h2><br />
+        <p>A motivated, adaptable, and responsible computing undergraduate
+                        seeking a position in an IT position which will utilize the professional,
+                        technical and skills developed through keep practicing in this field. I can provide clean code and pixel
+                        perfect design. I also make the website mere & more interactive with web animations.</p><br></br>
         <form>
           <Link to="/login">
-            <button type="submit">Login Here</button>
+            <button id ="LGbtn" type="submit">Explore</button>
           </Link>
         </form>
       </div>
     </div>
   );
 }
+ 

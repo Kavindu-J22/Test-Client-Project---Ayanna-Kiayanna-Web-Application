@@ -4,20 +4,20 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Josefin Sans',sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     box-sizing: border-box;
 }
 
 .header{
     height: 100vh;
     width: 100%;
-    padding: 0 8%;
+    padding: 5px;
     background: #080808;
     position: relative;
 }
 
 .header span{
-    color: #cb7f68;
+    color: #eb1c53;
 }
 
 
@@ -26,16 +26,12 @@
     align-items: center;
     justify-content: space-between;
     padding-top: 10px;
-    padding-left: 50%;
-    padding-right: 5%;
-}
-
-.logo1{
-    width: 140px;
+    padding-left: 60%;
+    
 }
 
 .nav-links{
-    padding: 28px 0;
+    padding: 28px 0px 10px;
 }
 
 .nav-links li{
@@ -45,24 +41,28 @@
 }
 .nav-links li a{
     text-decoration: none;
+    font-weight: bold;
     color: #fff;
     position: relative;
+    text-shadow: 0px 0px 5px #000,0px 0px 15px #000;
+    transition: 0.5s;
+}
+.nav-links li a:hover{
+    opacity: 0.6; 
 }
 
-.nav-links li a::after{
+/* .nav-links li a::after{
     content: '';
-    background: #ff3d00;
+    background: #762810;
     width: 0;
     height: 2px;
     position: absolute;
     bottom: 0;
     left: 0;
     transition: width 0.5s;
-}
+} */
 
-.nav-links li a:hover::after{
-    width: 100%;
-}
+
 
 .signup{
     background: #ff3d00;
@@ -88,8 +88,15 @@
     font-weight: 600;
     margin-bottom: 40px;
     font-weight: 700;
-    font-family: 'Libre Baskerville', serif; 
+    font-family: 'Josefin Sans', sans-serif; 
+    text-shadow: 0px 0px 5px #000,0px 0px 15px #000;
     color:whitesmoke;
+    cursor: pointer;
+    transition: transform .4s;
+}
+
+.content h1:hover{
+    transform: scale(1.1);
 }
 /*
 .content form{
@@ -108,14 +115,18 @@
 } */
 
 .content form button{
-    background: #ffc403;
-    color: black;
-    padding: 15px 40px;
-    border: none;
-    border-radius: 6px;
+    background: transparent;
+    color: rgb(231, 221, 221);
+    padding: 7px 30px;
+    border: 2px solid #eadfe3;
+    border-radius: 30px;
     cursor: pointer;
-    font-family:'Times New Roman', Times, serif;
     font-weight: 900;
+    box-shadow: 0px 0px 5px #000,0px 0px 15px #4f4c4c;
+    transition: .5s;
+}
+.content form button:hover{
+    transform: scale(0.9);
 }
 
 .video{
@@ -130,16 +141,33 @@
 }
 
 .signup{
-    background-color: #f9004d;
+    background-color: #ce1751;
     color: white;
     text-decoration: none;
     border: 2px solid transparent;
     font-weight: bold;
-    padding: 10px 25px;
-    border-radius: 30px;
+    padding: 7px 10px;
+    border-radius: 35px;
     transition: transform .4s;
 }
 
-.signup:hover{
-    transform: scale(1.2);
+.header .content .logo1{
+    position: relative;
+    align-items: center;
+    width: 35%;
+    opacity: 0.7;
+    transition: .4s;
+    cursor: pointer;
+}
+.logo1:hover{
+    transform: scale(1.1);
+}
+.content h2{
+    font-size: 25px;
+    text-shadow: 0px 0px 5px #000,0px 0px 15px #5e5353;
+    cursor: pointer;
+}
+.content p{
+    font-style: italic;
+    color: #f0d5de;
 }
