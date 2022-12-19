@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 const examSchema = {
   examname:{
     type:String,
-    required:true,
+    
   },
   classID: String,
   type: String,

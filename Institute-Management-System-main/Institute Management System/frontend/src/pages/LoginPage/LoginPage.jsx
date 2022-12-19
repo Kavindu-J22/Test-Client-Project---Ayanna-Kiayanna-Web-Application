@@ -29,7 +29,7 @@ const LoginPage = ({ history }) => {
   };
 
   return (
-    <MainScreen title="LOGIN">
+    <MainScreen title="User Login - Institute of AyannaKiyanna">
       <div className="loginContainer">
         {error && <ErrorMessage variant="danger">{error}</ErrorMessage>}
         {loading && <Loading />}

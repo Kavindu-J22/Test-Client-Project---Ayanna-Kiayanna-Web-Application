@@ -1,47 +1,70 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Noto+Sans+Sinhala:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 .header-background1{
-    background-color:#F2F3F4;
+    background-color: rgb(29, 33, 39);
     height: 128px;
-    border: 1px solid grey;
+    border-bottom: 3px solid rgb(5, 6, 19);
+    transition: background .6s;
 }
+.header-background1:hover{
+    background: #373132;
+}
+
  
-.logo{
-    width: 50px;
+.header-background1 .logo-name .logo{
+    width: 90px;
     height: 50px;
     position: absolute;
+    cursor: pointer;
+    transition: transform .4s;
+}
+.header-background1 .logo-name .logo:hover{
+    transform: scale(1.08);
 }
  
-.lname1{
-    margin-left: 50px;
-    margin-top: 2px;
-    padding: 8px;
-    color: #ffaf0f;
-    font-family: 'Abril Fatface', cursive;
-    font-size: 35px;
+.header-background1 .logo-name .lname1{
+    margin-left: 92px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    cursor: pointer; 
+    font-weight: bold;
     
 }
+.header-background1 .logo-name .lname1 span{
+    font-size: 35px;
+    font-family: 'Noto Sans Sinhala', sans-serif;
+    color: #f9004d;
+    font-style: italic;
+    font-weight: bold;
+}
  
-.logo-name{
+.header-background1 .logo-name{
     margin-left: 40px;
-    padding-top: 28px;
+    padding-top: 15px;
     max-width: 360px;
     position: absolute;
+    overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
  
 .nav-barMain{
     float:right;
-    font-size: large;
+    font-size: 15px;
     margin-right: 10px;
     list-style: none;
     display: flex;
     margin-top: 80px;
+
 }
  
 .nav-item1{
     padding-right: 20px;
     text-decoration: none;
-    /* color: #000002; */
-    font-family: sans-serif,poppins;
+    font-family: 'Josefin Sans', sans-serif;
     height: 20px;
     line-height: 43px;
     margin: 3px;
@@ -50,15 +73,13 @@
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
-    color: gray;
+    color: rgba(237, 230, 241, 0.8);
+    
     
     
 }
 .nav-item1:hover{
-    background-color:#00BFFF;
   color: white;
-  box-shadow: 15px 20px 50px rgba(24, 139, 119, 0.2);
-  border-radius: 100px;
   cursor: pointer;
 }
  
@@ -72,7 +93,7 @@
 .userImg{
     width:50px;
     height:50px;
-    border-radius:80px;
+    border-radius:30px;
     margin-right:50px;
     margin-top: 20px;
     position: relative;
@@ -80,15 +101,15 @@
  
 .username-img{
     float: right;
+    align-items: center;
    
 }
  
-.user-name{
+.username-img .user-name{
     float: left;
     margin-right: 20px;
-    margin-top: 30px;
-    font-family: sans-serif,roboto;
-   
+    margin-top: 5px;
+
 }
  
 .dropdown {

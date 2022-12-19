@@ -5,4 +5,26 @@
   flex-direction: column;
   margin: 20px;
   align-items: center;
+  background-color: rgb(20, 31, 25);
+  border-radius: 30px;
 }
+
+.loginContainer form{
+  padding: 20px;
+  color: rgb(240, 255, 246);
+}
+.loginContainer .py-3 {
+  color: aliceblue;
+  font-style: italic
+}
+
+.loginContainer button{
+  border-radius: 30px;
+  background-color: rgb(25, 110, 59);
+  border: none;
+}
+.loginContainer button:hover{
+  
+}
+
+

@@ -69,6 +69,10 @@ export default function Starting({ history }) {
           <Link to="/login">
             <button id ="LGbtn" type="submit">Explore</button>
           </Link>
+          <br /><br />
+          <Link to="/teacher-login">
+            <button id ="LGbtnA" type="submit">For Admin</button>
+          </Link>
         </form>
       </div>
     </div>

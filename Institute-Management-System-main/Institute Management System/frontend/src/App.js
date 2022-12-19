@@ -102,8 +102,7 @@ function App() {
 
           {/* Teacher manage routes */}
 
-        
-
+    
           <Route path="/student/class" component={Class} />
           <Route path="/teacher/up/:Subjectid" exact component={UpdateClass} />
 

@@ -12,7 +12,7 @@ import {
 import { Link, useHistory } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { logout } from "../../actions/userActions";
-import Logo from "../../assets/images/logo.png";
+import Logo from "../../assets/images/AKlogo.png";
 import "./Header.css";
 
 
@@ -43,8 +43,9 @@ function Header({ setSearch }) {
     <div className="header-background1">
       <div className="logo-name">
         <img src={Logo} className="logo" alt="logo" />
-        <h1 className="lname1">Global Education</h1>
+        <h1 className="lname1"><span>A</span>yanna Kiyanna </h1>
       </div>
+
       <div className="username-img">
         <div className="user-name">
           <NavDropdown title={userInfo?.name} id="navbarScrollingDropdown">
