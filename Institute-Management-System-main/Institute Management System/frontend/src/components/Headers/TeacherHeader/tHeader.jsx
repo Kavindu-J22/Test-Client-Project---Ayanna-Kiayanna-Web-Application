@@ -9,11 +9,11 @@ function tHeader() {
     <div className="header-background">
       <div className="logo-name">
         <img src={Logo} className="logo" alt="logo" />
-        <h1 className="lname">Global Education</h1>
+        <h1 className="lname">Ayanna Kiayanna</h1>
       </div>
       <div className="username-img">
         <div className="user-name">
-          <p>Mrs. Gayani Perera</p>
+          <p>Mr. Jagath Kumara Jayasinghe</p>
         </div>
         <Link to="/teacher/:profileId">
           <img src={UserImg} className="userImg" alt="user img" />

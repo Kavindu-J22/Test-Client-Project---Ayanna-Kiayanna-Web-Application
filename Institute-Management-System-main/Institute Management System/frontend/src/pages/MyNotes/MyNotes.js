@@ -8,6 +8,7 @@ import Loading from "../../components/Loading/Loading";
 import ErrorMessage from "../../components/ErrorMessage/ErrorMessage";
 import Header from "../../components/Header/Header";
 import './notes.css';
+import { colors } from "@material-ui/core";
 
 
 function MyNotes({ search }) {
@@ -56,10 +57,10 @@ function MyNotes({ search }) {
       <div className="mynotes">
         <MainScreen title={`Welcome Back ${userInfo.name}..!`}>
           <br />
-          {/* <img className="bg-img" src={BG} alt="bg img" /> */}
+          
           <Link to="createnote">
             <Button style={{ marginLeft: 10, marginBottom: 6 }} size="medium">
-              Create New Article
+              Create New Note
             </Button>
           </Link>
 

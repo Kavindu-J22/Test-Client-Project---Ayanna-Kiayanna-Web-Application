@@ -59,6 +59,10 @@ import EditAttendance from "./pages/EditAttendance/EditAttendance";
 import SubmitAnswer from "./pages/Exam submission/submitAnswer";
 import ExamReport from "./pages/Report-exam/examReport";
 
+//other 
+import Other from "./pages/Other/Other";
+
+
 function App() {
   const [search, setSearch] = useState("");
   return (
@@ -87,6 +91,9 @@ function App() {
           <Route path="/student/exams" exact component={OnGoingExam} />
           <Route path="/student/goresult" exact component={MyResults} />
           <Route path="/student/results" exact component={MyResults} />
+          <Route path="/student/other" exact component={Other} />
+
+
           <Route path="/goexam" component={ExamPortal} />
           <Route path="/student/attempt/:_id" component={SubmitAnswer} />
           <Route path="/teacher/rep" component={ExamReport} />

@@ -47,20 +47,33 @@ function Header({ setSearch }) {
       </div>
 
       <div className="username-img">
-        <div className="user-name">
-          <NavDropdown title={userInfo?.name} id="navbarScrollingDropdown">
+        <div className="dropdown">
+        <span className="nav-item1">{userInfo?.name}</span>
+          <div className="dropdown-content">
+            <Link className="dropdown-text" to="/profile">
+            Profile
+            </Link>
+            <br />
+            <Link className="dropdown-text" to="/" onClick={logoutHandler}>
+            LogOut
+            </Link>
+            <br />
+          </div>
+          {/* <NavDropdown title={userInfo?.name} id="navbarScrollingDropdown">
             <NavDropdown.Item>
               <Link to="/profile">Profile</Link>
             </NavDropdown.Item>
             <NavDropdown.Divider />
             <NavDropdown.Item onClick={logoutHandler}>LogOut</NavDropdown.Item>
-          </NavDropdown>
+          </NavDropdown> */}
         </div>
         <img src={pic} className="userImg" />
       </div>
+
+
       <div className="nav-barMain">
         <div className="dropdown">
-          <Link className="nav-item1" to="/home">
+          <Link className="nav-item1" to="/" onClick={logoutHandler}>
             Home
           </Link>
           <br />
@@ -68,7 +81,7 @@ function Header({ setSearch }) {
 
         <div className="dropdown">
           <Link className="nav-item1" to="/mynotes">
-            Blog
+            My Notes
           </Link>
           <br />
         </div>
@@ -115,6 +128,15 @@ function Header({ setSearch }) {
             <br />
           </div>
         </div>
+
+        <div className="dropdown">
+          <Link className="nav-item1" to="/student/other">
+            other
+          </Link>
+          <br />
+        </div>
+
+
 
         {/* Payment nav */}
         <div className="dropdown">
