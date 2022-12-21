@@ -24,7 +24,7 @@ function Other(){
       <th>
         <div class="col-sm">
         <div className="bg-image" >
-        <i class="fa-solid fa-laptop-file"></i>
+        <i class="fa-solid fa-newspaper"></i>
         <h5>Weekly Magazines</h5>
         <div class="pra">
         <p>I can provide clean code and pixel
@@ -40,7 +40,7 @@ function Other(){
     <th>
     <div class="col-sm">
         <div className="bg-image" >
-        <i class="fa-solid fa-laptop-file"></i>
+        <i class="fa-sharp fa-solid fa-bell"></i>
         <h5>Notifications</h5>
         <div class="pra">
         <p>I can provide clean code and pixel
@@ -56,7 +56,7 @@ function Other(){
     <th>
     <div class="col-sm">
         <div className="bg-image" >
-        <i class="fa-solid fa-laptop-file"></i>
+        <i class="fa-solid fa-paperclip"></i>
         <h5>Paper Bucket</h5>
         <div class="pra">
         <p>I can provide clean code and pixel
@@ -72,7 +72,7 @@ function Other(){
       <th>
       <div class="col-sm">
         <div className="bg-image" >
-        <i class="fa-solid fa-laptop-file"></i>
+        <i class="fa-solid fa-layer-group"></i>
         <h5>Documents for A/L</h5>
         <div class="pra">
         <p>I can provide clean code and pixel
@@ -103,7 +103,7 @@ function Other(){
     <th>
     <div class="col-sm">
         <div className="bg-image" >
-        <i class="fa-solid fa-laptop-file"></i>
+        <i class="fa-solid fa-book"></i>
         <h5>Our Blogs & Books</h5>
         <div class="pra">
         <p>I can provide clean code and pixel
@@ -118,7 +118,7 @@ function Other(){
       <th>
       <div class="col-sm">
         <div className="bg-image" >
-        <i class="fa-solid fa-laptop-file"></i>
+        <i class="fa-solid fa-pen-nib"></i>
         <h5>Student Clours</h5>
         <div class="pra">
         <p>I can provide clean code and pixel
@@ -134,7 +134,7 @@ function Other(){
     <th>
     <div class="col-sm">
         <div className="bg-image" >
-        <i class="fa-solid fa-laptop-file"></i>
+        <i class="fa-solid fa-feather"></i>
         <h5>Entertainment</h5>
         <div class="pra">
         <p>I can provide clean code and pixel
@@ -151,7 +151,7 @@ function Other(){
     <th>
     <div class="col-sm">
         <div className="bg-image" >
-        <i class="fa-solid fa-laptop-file"></i>
+        <i class="fa-solid fa-camera-retro"></i>
         <h5>Photo Bukaet</h5>
         <div class="pra">
         <p>I can provide clean code and pixel
@@ -167,12 +167,12 @@ function Other(){
   <th>
     <div class="col-sm-l">
         <div className="bg-image" >
-        <i class="fa-solid fa-laptop-file"></i>
+        <i class="fa-brands fa-youtube"></i>
         <h5>Our YouTube</h5>
         <div class="pra">
         <p>I can provide clean code and pixel
            perfect design. I also make the website mere & more interactive with web animations.</p>
-           <a class="button" href="#">See More</a>
+           <a class="button" href="#">Visit Now</a>
         </div>
 
     </div></div>
