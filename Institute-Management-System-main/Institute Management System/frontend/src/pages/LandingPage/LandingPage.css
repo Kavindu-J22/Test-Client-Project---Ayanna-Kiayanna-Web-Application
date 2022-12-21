@@ -204,15 +204,18 @@
     margin-bottom: 25px;
     text-transform: capitalize;
 }
+.about-text h5 span{
+    color: #f9004d;
+}
 .about-text p{
-    color: rgba(171, 220, 191, 0.8);
+    color: #fcfc;
     letter-spacing: 1px;
     line-height: 28px;
     font-size: 18px;
     margin-bottom: 45px;
 }
 button{
-    background-color: #4cb99c;
+    background-color: #f9004d;
     color: white;
     text-decoration: none;
     border: 2px solid transparent;
@@ -223,6 +226,10 @@ button{
 }
 button:hover{
     background-color: transparent;
-    border: 2px solid #4cb99c;
+    border: 2px solid #f9004d;
     cursor: pointer;
+}
+.image-About{
+    height: auto;
+    width: 430px;
 }

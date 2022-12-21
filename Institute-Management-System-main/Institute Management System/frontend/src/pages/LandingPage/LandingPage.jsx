@@ -2,6 +2,7 @@ import React from "react";
 import "./LandingPage.css";
 import backgroundTheme from "../../assets/videos/video2.mp4";
 import AKlogo from "../../assets/images/AKlogo.png"
+import Ayanna from "../../assets/images/Ayanna.png"
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
 
@@ -80,7 +81,7 @@ export default function Starting({ history }) {
 
     <section class="about">
             <div class="main">
-                <img class="image-About" src="./images/About.jpeg"/>
+                <img class="image-About" src={Ayanna} alt=""/>
                 <div class="about-text">
                     <h2>About Us</h2>
                     <h5>Institute <span>& Education Hub</span></h5>
