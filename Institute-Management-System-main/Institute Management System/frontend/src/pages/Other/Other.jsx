@@ -25,7 +25,7 @@ function Other(){
         <div class="col-sm">
         <div className="bg-image" >
         <i class="fa-solid fa-newspaper"></i>
-        <h5>Weekly Magazines</h5>
+        <h5>E - Magazines</h5>
         <div class="pra">
         <p>I can provide clean code and pixel
            perfect design. I also make the website mere & more interactive with web animations.</p>

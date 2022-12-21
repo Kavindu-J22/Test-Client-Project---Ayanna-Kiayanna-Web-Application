@@ -59,7 +59,7 @@ function MyNotes({ search }) {
           <br />
           
           <Link to="createnote">
-            <Button style={{ marginLeft: 10, marginBottom: 6 }} size="medium">
+            <Button className="btn1">
               Create New Note
             </Button>
           </Link>
@@ -104,9 +104,8 @@ function MyNotes({ search }) {
                     </span>
 
                     <div className="notesEdit">
-                      <Button href={`/note/${note._id}`}>Edit</Button>
+                      <Button className="btn2" href={`/note/${note._id}`}>Edit</Button>
                       <Button
-                        variant="danger"
                         className="mx-2"
                         onClick={() => deleteHandler(note._id)}
                       >

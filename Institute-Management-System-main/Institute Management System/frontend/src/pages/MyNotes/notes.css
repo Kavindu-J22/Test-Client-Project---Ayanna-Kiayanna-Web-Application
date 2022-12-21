@@ -1,7 +1,18 @@
 .mynotes{
     margin-right: 20px;
     margin: 100px;
-    margin-top: 20px;
+    margin-top: 20px;   
+}
+.btn1{
+    background-color:rgb(145, 9, 52);
+    margin-left: 10px;
+    border-radius: 30px;
+    border-color: transparent;
+    
+}
+.btn1:hover{
+    background-color: rgb(169, 94, 118);
+    border-color: transparent;
 }
 
 .notesEdit{
@@ -12,3 +23,24 @@
     padding: 60px;
 }
 
+.btn2{
+    background-color:rgb(13, 64, 47);
+    margin-left: 10px;
+    border-radius: 10px;
+    border-color: transparent;
+    
+}
+.btn2:hover{
+    background-color:rgb(21, 102, 75);
+    border-color: transparent;
+}
+.mx-2{
+    background-color:rgb(45, 40, 38);
+    margin-left: 10px;
+    border-radius: 10px;
+    border-color: transparent; 
+}
+.mx-2:hover{
+    background-color:rgb(69, 74, 72);
+    border-color: transparent;
+}
