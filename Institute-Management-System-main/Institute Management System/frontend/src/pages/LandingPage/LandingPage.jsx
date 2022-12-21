@@ -77,14 +77,14 @@ export default function Starting({ history }) {
         </form>
       </div>
     </div>
-    
+
     <section class="about">
             <div class="main">
                 <img class="image-About" src="./images/About.jpeg"/>
                 <div class="about-text">
-                    <h2>About Me</h2>
-                    <h5>Developer <span>& Designer</span></h5>
-                    <p>I am a FullStack Developer. A motivated, adaptable, and responsible computing undergraduate
+                    <h2>About Us</h2>
+                    <h5>Institute <span>& Education Hub</span></h5>
+                    <p> A motivated, adaptable, and responsible computing undergraduate
                         seeking a position in an IT position which will utilize the professional,
                         technical and skills developed through keep practicing in this field. I can provide clean code and pixel
                         perfect design. I also make the website mere & more interactive with web animations.</p>
