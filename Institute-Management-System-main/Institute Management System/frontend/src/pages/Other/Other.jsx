@@ -15,7 +15,7 @@ function Other(){
       
    
     <h2 className="text-center">- Other Categories -</h2>
-    <h3 className="text-center" >Go through & Explore</h3>
+    <h3 className="text-center2" >Go through & Explore</h3>
 
     <table class="center">
     
@@ -73,7 +73,7 @@ function Other(){
       <div class="col-sm">
         <div className="bg-image" >
         <i class="fa-solid fa-laptop-file"></i>
-        <h5>Advanced Level</h5>
+        <h5>Documents for A/L</h5>
         <div class="pra">
         <p>I can provide clean code and pixel
            perfect design. I also make the website mere & more interactive with web animations.</p>
@@ -89,7 +89,7 @@ function Other(){
     <div class="col-sm">
         <div className="bg-image" >
         <i class="fa-solid fa-laptop-file"></i>
-        <h5>Advanced Level</h5>
+        <h5>Documents for O/L</h5>
         <div class="pra">
         <p>I can provide clean code and pixel
            perfect design. I also make the website mere & more interactive with web animations.</p>
@@ -104,7 +104,7 @@ function Other(){
     <div class="col-sm">
         <div className="bg-image" >
         <i class="fa-solid fa-laptop-file"></i>
-        <h5>Advanced Level</h5>
+        <h5>Our Blogs & Books</h5>
         <div class="pra">
         <p>I can provide clean code and pixel
            perfect design. I also make the website mere & more interactive with web animations.</p>
@@ -119,7 +119,7 @@ function Other(){
       <div class="col-sm">
         <div className="bg-image" >
         <i class="fa-solid fa-laptop-file"></i>
-        <h5>Advanced Level</h5>
+        <h5>Student Clours</h5>
         <div class="pra">
         <p>I can provide clean code and pixel
            perfect design. I also make the website mere & more interactive with web animations.</p>
@@ -135,7 +135,7 @@ function Other(){
     <div class="col-sm">
         <div className="bg-image" >
         <i class="fa-solid fa-laptop-file"></i>
-        <h5>Advanced Level</h5>
+        <h5>Entertainment</h5>
         <div class="pra">
         <p>I can provide clean code and pixel
            perfect design. I also make the website mere & more interactive with web animations.</p>
@@ -152,7 +152,7 @@ function Other(){
     <div class="col-sm">
         <div className="bg-image" >
         <i class="fa-solid fa-laptop-file"></i>
-        <h5>Advanced Level</h5>
+        <h5>Photo Bukaet</h5>
         <div class="pra">
         <p>I can provide clean code and pixel
            perfect design. I also make the website mere & more interactive with web animations.</p>
@@ -168,7 +168,7 @@ function Other(){
     <div class="col-sm-l">
         <div className="bg-image" >
         <i class="fa-solid fa-laptop-file"></i>
-        <h5>Advanced Level</h5>
+        <h5>Our YouTube</h5>
         <div class="pra">
         <p>I can provide clean code and pixel
            perfect design. I also make the website mere & more interactive with web animations.</p>
