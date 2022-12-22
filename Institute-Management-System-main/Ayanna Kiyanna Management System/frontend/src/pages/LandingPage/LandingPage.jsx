@@ -90,6 +90,8 @@ export default function Starting({ history }) {
                         technical and skills developed through keep practicing in this field. I can provide clean code and pixel
                         perfect design. I also make the website mere & more interactive with web animations.</p>
                         <button type="button">Let's Talk</button>
+
+                        
                 </div>
             </div>
         </section>
